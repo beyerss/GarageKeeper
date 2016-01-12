@@ -20,14 +20,12 @@ class AddGarageViewController: UIViewController {
     var delegate: AddGarageDelegate?
 
     @IBAction func save(sender: AnyObject) {
-        guard let name = garageNameTextField.text, capacityText = capcityTextField.text, capacity = Int(capacityText) else {
+        guard let garage = Garage(name: garageNameTextField.text, capacity: Int(capcityTextField.text!)) else {
             let alert = UIAlertController(title: "Inavlid Data", message: "Please review and correct the entered information.", preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             presentViewController(alert, animated: true, completion: nil)
             return
         }
-        
-        let garage = Garage(name: name, capacity: capacity)
         
         delegate?.didCreateGarage(garage)
         

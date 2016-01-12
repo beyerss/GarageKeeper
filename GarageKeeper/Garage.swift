@@ -14,11 +14,24 @@ class Garage: NSObject {
     var capacity: Int
     var cars = [Car]()
     
-    init(name: String, capacity: Int) {
-        self.name = name
-        self.capacity = capacity
+    init?(name: String?, capacity: Int?) {
+        self.name =  "default"
+        self.capacity = 1
         
         super.init()
+        
+        guard let name = name, capacity = capacity else { return nil }
+        
+        if (name.isEmpty) {
+            return nil
+        }
+        
+        if (capacity < 1) {
+            return nil
+        }
+        
+        self.name = name
+        self.capacity = capacity
     }
 
 }
