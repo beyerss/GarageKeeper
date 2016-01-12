@@ -12,6 +12,7 @@ class Car: NSObject {
     
     var make: String
     var model: String
+    var wheels: Int = 4
     
     var name: String {
         get {

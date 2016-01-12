@@ -12,6 +12,7 @@
 		C8B55A031C453BC900F7CA90 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55A021C453BC900F7CA90 /* CarTableViewCell.swift */; };
 		C8B55A051C4540AD00F7CA90 /* AddGarageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55A041C4540AD00F7CA90 /* AddGarageViewController.swift */; };
 		C8B55A071C45462E00F7CA90 /* UpdateCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55A061C45462E00F7CA90 /* UpdateCarViewController.swift */; };
+		C8B55A0B1C45755A00F7CA90 /* UniqueCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B55A0A1C45755A00F7CA90 /* UniqueCar.swift */; };
 		C8FEB6971C4535ED00803E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FEB6961C4535ED00803E2D /* AppDelegate.swift */; };
 		C8FEB6991C4535ED00803E2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FEB6981C4535ED00803E2D /* ViewController.swift */; };
 		C8FEB69C1C4535ED00803E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FEB69A1C4535ED00803E2D /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		C8B55A021C453BC900F7CA90 /* CarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
 		C8B55A041C4540AD00F7CA90 /* AddGarageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGarageViewController.swift; sourceTree = "<group>"; };
 		C8B55A061C45462E00F7CA90 /* UpdateCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCarViewController.swift; sourceTree = "<group>"; };
+		C8B55A0A1C45755A00F7CA90 /* UniqueCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueCar.swift; sourceTree = "<group>"; };
 		C8FEB6931C4535ED00803E2D /* GarageKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GarageKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FEB6961C4535ED00803E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8FEB6981C4535ED00803E2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				C8B55A021C453BC900F7CA90 /* CarTableViewCell.swift */,
 				C8B55A041C4540AD00F7CA90 /* AddGarageViewController.swift */,
 				C8B55A061C45462E00F7CA90 /* UpdateCarViewController.swift */,
+				C8B55A0A1C45755A00F7CA90 /* UniqueCar.swift */,
 			);
 			path = GarageKeeper;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				C8B55A051C4540AD00F7CA90 /* AddGarageViewController.swift in Sources */,
 				C8B559FF1C4539A300F7CA90 /* Garage.swift in Sources */,
 				C8B55A031C453BC900F7CA90 /* CarTableViewCell.swift in Sources */,
+				C8B55A0B1C45755A00F7CA90 /* UniqueCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

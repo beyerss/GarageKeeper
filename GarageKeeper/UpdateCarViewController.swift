@@ -39,7 +39,7 @@ class UpdateCarViewController: UIViewController {
             return
         }
         
-        let newCar = Car(make: make, model: model)
+        let newCar = UniqueCar(make: make, model: model)
         
         delegate?.didUpdateCar(originalCar: carToUpdate, updatedCar: newCar)
         
