@@ -14,16 +14,9 @@ class Garage: NSObject {
     var capacity: Int
     var cars = [Car]()
     
-    convenience init(name: String, capacity: Int) {
-        self.init()
-        
+    init(name: String, capacity: Int) {
         self.name = name
         self.capacity = capacity
-    }
-    
-    override init() {
-        self.name = "default"
-        self.capacity = 1
         
         super.init()
     }
